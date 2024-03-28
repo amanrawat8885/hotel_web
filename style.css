@@ -1,0 +1,61 @@
+:root{
+    --color: rgb(100, 245, 100);
+    --color_hover: rgb(165, 227, 165);
+  }
+  
+  *{
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  .h-font{
+      font-family: 'Merienda', cursive;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+  .swiper-slide img{
+    height: 450px;
+  }
+  
+  @media(max-width:976px){
+    .swiper-slide img{
+      height: 350px;
+    }
+  }
+  
+  @media(max-width:676px){
+    .swiper-slide img{
+      height: 250px;
+    }
+  }
+  
+  @media(max-width:476px){
+    .swiper-slide img{
+      height: 200px;
+    }
+  
+  }
+  
+  @media(max-width:350px){
+    .swiper-slide img{
+      height: 150px;
+    }
+  }
+  
+  .custom-btn{
+    background-color: var(--color);
+  }
+  .custom-btn:hover{
+    background-color: var(--color_hover);
+  }
+  
+  
+  .h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 2px;
+  }
